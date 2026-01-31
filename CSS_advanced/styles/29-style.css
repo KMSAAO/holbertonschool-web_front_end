@@ -169,6 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+    position: relative;
 }
 
 .nav .nav-link:hover {
@@ -316,10 +317,10 @@ ul.row {
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 0.20rem;
+    height: 0.2rem;
 }
 
-.nav .nav-item:hover  .nav-link::before{
+.nav .nav-item:hover .nav-link::before{
     background-color: var(--color-primary);
     width: 100%;
 }
